@@ -132,7 +132,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 140px; */
+  margin-bottom: 140px;
 }
 .link-section p {
   font-size: 14px;
@@ -252,14 +252,26 @@ footer .main-footer {
     width: 80%;
     flex-direction: column;
   }
-  /* .link-section {
-    margin-bottom: 260px;
-  } */
   .link-section ul li a {
     font-size: 11px;
   }
   footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
+  }
+  .sub-footer div {
+    padding: 5px 23px;
+  }
+  .sub-footer div p {
+    font-size: 11px;
+  }
+  footer .main-footer {
+    padding: 0 20px;
+  }
+  .main-footer .box-1 ul li a {
+    font-size: 11px;
+  }
+  .main-footer .box-2 ul li a {
+    font-size: 11px;
   }
 }

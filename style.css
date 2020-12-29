@@ -254,6 +254,9 @@ footer .main-footer {
     margin-bottom: 260px;
   }
   .link-section ul li a {
-    font-size: 13px;
+    font-size: 11px;
+  }
+  footer {
+    margin: 0;
   }
 }

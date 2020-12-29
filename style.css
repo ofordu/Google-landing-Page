@@ -132,7 +132,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 140px;
+  /* margin-bottom: 140px; */
 }
 .link-section p {
   font-size: 14px;
@@ -149,6 +149,7 @@ nav ul li a:hover {
 /* Body content start here */
 
 /* Footer styling starts here */
+
 .sub-footer div {
   border: 1px solid #ccc;
   background-color: #e8e3e359;
@@ -250,13 +251,14 @@ footer .main-footer {
     width: 80%;
     flex-direction: column;
   }
-  .link-section {
+  /* .link-section {
     margin-bottom: 260px;
-  }
+  } */
   .link-section ul li a {
     font-size: 11px;
   }
   footer {
-    margin: 0;
+    position: absolute;
+    bottom: 0;
   }
 }

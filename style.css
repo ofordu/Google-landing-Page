@@ -1,0 +1,259 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  color: #202124;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Nav styling starts here */
+.iconic {
+  font-size: 16px;
+}
+nav ul li {
+  float: right;
+  padding: 0 9px;
+  margin-top: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #202124;
+}
+nav ul li a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+/* Nav styling end here */
+
+/* Body content start here */
+.main-content {
+  margin-top: 50px;
+}
+.main-container {
+  width: 60%;
+  margin: 0 auto;
+  /* border: 2px solid #ccc; */
+  position: relative;
+  min-height: 300px;
+}
+
+/* google logo styling */
+.main-container .google-logo {
+  text-align: center;
+  position: relative;
+}
+/* share icon styling starts here */
+.share-icon {
+  margin-bottom: 30px;
+}
+.share-icon i {
+  font-size: 25px;
+  color: #3b3fb3c9;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 150px;
+  right: 200px;
+}
+/* share icon styling end here */
+
+/* Google search from styling start here */
+.main-container .form-div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+.main-container .form {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.main-container .form input[type="text"] {
+  width: 500px;
+  border: 0;
+  padding: 15px 0px;
+  outline: none;
+}
+.form-div i {
+  padding: 0 15px;
+  color: #ccc;
+}
+/* Google search from styling end here */
+
+.sub-section {
+  width: 45%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.sub-section .box-1 {
+  background-color: #9e9e9e1f;
+  text-align: center;
+  padding: 5px 13px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.sub-section .box-1:hover {
+  border: 1px solid #ccc;
+  background-color: none;
+}
+
+.sub-section .box-2 {
+  background-color: #9e9e9e1f;
+  text-align: center;
+  padding: 5px 13px;
+  border-radius: 3px;
+}
+.sub-section .box-2:hover {
+  border: 1px solid #ccc;
+  background-color: none;
+}
+
+.link-section {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 140px;
+}
+.link-section p {
+  font-size: 14px;
+}
+.link-section ul li {
+  float: left;
+  padding: 0 7px 0 5px;
+}
+.link-section ul li a {
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+}
+/* Body content start here */
+
+/* Footer styling starts here */
+.sub-footer div {
+  border: 1px solid #ccc;
+  background-color: #e8e3e359;
+  padding: 10px 23px;
+}
+.sub-footer div p {
+  color: #7d7171;
+}
+footer .main-footer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  background-color: #e8e3e359;
+  padding: 10px 20px;
+}
+.main-footer .box-1 ul li {
+  float: left;
+  padding: 0 7px 0 5px;
+}
+.main-footer .box-1 ul li a {
+  text-decoration: none;
+  color: #7d7171;
+}
+.main-footer .box-2 ul li {
+  float: left;
+  padding: 0 7px 0 5px;
+}
+.main-footer .box-2 ul li a {
+  text-decoration: none;
+  color: #7d7171;
+}
+/* Footer styling end here */
+
+/* Media query starts here */
+@media (max-width: 600px) {
+  .main-container {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 300px;
+  }
+  .main-container .google-logo {
+    text-align: center;
+    position: relative;
+  }
+  .google-logo img {
+    width: 100%;
+    height: 130px;
+  }
+  .share-icon {
+    margin-bottom: 30px;
+  }
+  .share-icon i {
+    font-size: 25px;
+    color: #3b3fb3c9;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+  }
+
+  .main-container .form-div {
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+  }
+  .main-container .form {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .form-div i {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-container .form input[type="text"] {
+    width: 100%;
+    border: 0;
+    padding: 15px 0px;
+    outline: none;
+  }
+  .sub-section {
+    width: 80%;
+  }
+  .sub-section .box-1 {
+    padding: 0 5px;
+    margin-right: 5px;
+    font-size: 13px;
+  }
+  .sub-section .box-2 {
+    padding: 0 7px;
+    margin-right: 5px;
+    font-size: 13px;
+  }
+  .link-section {
+    width: 80%;
+    flex-direction: column;
+  }
+  .link-section {
+    margin-bottom: 260px;
+  }
+  .link-section ul li a {
+    font-size: 13px;
+  }
+}

@@ -185,6 +185,9 @@ footer .main-footer {
 
 /* Media query starts here */
 @media (max-width: 600px) {
+  .main-content {
+    margin-top: 10px;
+  }
   .main-container {
     width: 100%;
     margin: 0 auto;
@@ -235,17 +238,15 @@ footer .main-footer {
     outline: none;
   }
   .sub-section {
-    width: 80%;
+    width: 75%;
   }
   .sub-section .box-1 {
-    padding: 0 5px;
-    margin-right: 5px;
-    font-size: 13px;
+    padding: 5px 8px;
+    font-size: 11px;
   }
   .sub-section .box-2 {
-    padding: 0 7px;
-    margin-right: 5px;
-    font-size: 13px;
+    padding: 5px 8px;
+    font-size: 11px;
   }
   .link-section {
     width: 80%;
